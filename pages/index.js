@@ -21,6 +21,7 @@ const HeadTitle = styled(Typography)`
 const Screenshot = styled.img`
   display: block;
   width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 `;
 
