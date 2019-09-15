@@ -15,9 +15,13 @@ const TitleSpan = styled.span`
   }
 `;
 
+const Header = styled.header`
+  margin-bottom: 40px;
+`;
+
 const HeaderComponent = () => {
   return (
-    <header>
+    <Header>
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -30,7 +34,7 @@ const HeaderComponent = () => {
       <Typography style={{ marginBottom: 6 }}>
         A Slack bot for async team standups.
       </Typography>
-    </header>
+    </Header>
   );
 };
 

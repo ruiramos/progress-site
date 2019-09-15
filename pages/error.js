@@ -1,14 +1,16 @@
 import { Link, Container, Typography, Grid } from "@material-ui/core";
+import Layout from "../components/layout";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const success = () => {
   return (
-    <Container className="root">
+    <Layout>
       <Header />
       <Typography>
         Error, please <Link href="/">try again</Link>.
       </Typography>
-    </Container>
+    </Layout>
   );
 };
 

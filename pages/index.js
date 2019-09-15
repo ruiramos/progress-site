@@ -24,9 +24,7 @@ const Screenshot = styled.img`
   margin: 0 auto;
 `;
 
-const TopSection = styled(Box)`
-  margin: 40px 0;
-`;
+const TopSection = styled(Box)``;
 
 const CenteredTitle = styled(Typography)`
   text-align: center;
@@ -37,10 +35,6 @@ const CenteredTitle = styled(Typography)`
 const Index = () => {
   return (
     <Layout>
-      <style jsx>{`
-        :global(.top-section) {
-        }
-      `}</style>
       <Header />
       <TopSection>
         <Typography>
